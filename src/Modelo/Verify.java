@@ -14,11 +14,11 @@ import java.util.List;
  */
 public class Verify {
 
-    public static List algarismos = new ArrayList<>();
-    public static List letras = new ArrayList<>();
-    public static List simbolos = new ArrayList();
+    public static List<Object> algarismos = new ArrayList<>();
+    public static List<Object> letras = new ArrayList<>();
+    public static List<Object> simbolos = new ArrayList<>();
 
-    public static List algarismos() {
+    public static List<Object> algarismos() {
         String alg = "0123456789";
         int algi = alg.length();
 
@@ -28,7 +28,7 @@ public class Verify {
         return algarismos;
     }
 
-    public static List letras() {
+    public static List<Object> letras() {
         String let = "abcdfghijklmnopqrstuvwxyz";
         int algi = let.length();
 
@@ -38,7 +38,7 @@ public class Verify {
         return letras;
     }
    
-    public static List simbolos() {
+    public static List<Object> simbolos() {
         String let = "!@#$%¨&*()_+}{`^~; : /  / ? > < ¹²³£¢¬§ª°  |";
         int algi = let.length();
 
